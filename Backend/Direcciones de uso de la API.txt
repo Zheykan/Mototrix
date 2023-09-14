@@ -1,0 +1,18 @@
+La ruta raiz es "api", se consulta mediante el host, el puerto, la raiz, la entidad y el servicio.
+los servicios se manejan mediante postman, son guardar(post en postman), consultar todos(/listar),
+consultar por id(cambiamos listar por el id del elemento: /id), eliminar( delete en postman) y actualizar (/actualizar en cliente, empleado, proveedor e insumo)
+(put en postman para ficha, refaccion, servicio, vehiculo).
+
+Rutas(servicio "buscar todos(listar)" por defecto):
+
+http://localhost:9090/api/cliente/listar
+http://localhost:9090/api/vehiculos/listar
+
+http://localhost:9090/api/empleado/listar
+
+http://localhost:9090/api/proveedor/listar
+http://localhost:9090/api/refaccion/listar
+http://localhost:9090/api/insumo/listar
+
+http://localhost:9090/api/servicio/listar
+http://localhost:9090/api/fichaservicio/listar

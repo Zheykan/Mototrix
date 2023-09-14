@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ficha de servicios</title>
+  <link rel="icon" href="imag/img1.png">
+  <link rel="stylesheet" href="css/EmpleadosStyle.css">  
+</head>
+
+
+<section class="form-registro">
+
+  <h4><center>FICHA DE SERVICIOS</center></h4>
+        <form action="/action_page.php">
+        <input class="input"  type="date" id="Fecha_revision" name="Fecha_revision" min="DD/MM/AAAA"><br><br>  
+        <select class="selector-mecanico" name="mecanico" id="Mecanico" required>
+          <option value="mecánico a cargo">Seleccionar mecánico a cargo</option>
+          <option value="Mecanico1">Mecanico x</option>
+          <option value="Mecanico2">Mecanico y</option>
+          <option value="Mecanico3">Mecanico z</option>
+        </select>
+        <select class="selector-cliente" name="Cliente" id="Cliente" required>
+          <option value="Cliente">Seleccionar cliente</option>
+          <option value="Cliente1">Cliente x</option>
+          <option value="Cliente2">Cliente y</option>
+          <option value="Cliente3">Cliente z</option>
+        </select>
+        <select class="selector-vehículo" name="Vehículo" id="Vehículo" required>
+          <option value="Vehículo">Seleccionar Vehículo</option>
+          <option value="Vehículo">Vehículo x</option>
+          <option value="Vehículo">Vehículo y</option>
+          <option value="Vehículo">Vehículo z</option>
+        </select>
+      </section>  
+    <div class="form-table">  
+
+      <h4><center>1.Sistema eléctrico</center></h4>        
+      <table style="width:100%">
+          <tr>
+            <th>x</th>
+            <td><input class="input" type="text" id="item1" name="item" ></td>
+            <th>x</th>
+            <td><input class="input" type="text" id="item1" name="item" ></td>
+          </tr> 
+          <tr>
+            <th>y</th>
+            <td><input class="input" type="text" id="item2" name="item" ></td>
+          </tr>
+          <tr>
+            <th>z</th>
+            <td><input class="input" type="number" id="item3" name="item" ></td>
+          </tr> 
+        </table> 
+          <h4><center>2.Neumáticos</center></h4>      
+          <table style="width:100%">
+              <tr>
+                <th>x</th>
+                <td><input class="input" type="text" id="item1" name="item" ></td>
+              </tr> 
+              <tr>
+                <th>y</th>
+                <td><input class="input" type="text" id="item2" name="item" ></td>
+              </tr>
+              <tr>
+                <th>z</th>
+                <td><input class="input" type="number" id="item3" name="item" ></td>
+              </tr> 
+            </table>
+            <h4><center>3.Sistema mecánico</center></h4>      
+            <table style="width:100%">
+                <tr>
+                  <th>x</th>
+                  <td><input class="input" type="text" id="item1" name="item" ></td>
+                </tr> 
+                <tr>
+                  <th>y</th>
+                  <td><input class="input" type="text" id="item2" name="item" ></td>
+                </tr>
+                <tr>
+                  <th>z</th>
+                  <td><input class="input" type="number" id="item3" name="item" ></td>
+                </tr> 
+              </table>
+              <h4><center>4.Tapicería</center></h4>      
+              <table style="width:100%">
+                  <tr>
+                    <th>x</th>
+                    <td><input class="input" type="text" id="item1" name="item" ></td>
+                  </tr> 
+                  <tr>
+                    <th>y</th>
+                    <td><input class="input" type="text" id="item2" name="item" ></td>
+                  </tr>
+                  <tr>
+                    <th>z</th>
+                    <td><input class="input" type="number" id="item3" name="item" ></td>
+                  </tr> 
+                </table>
+                <h4><center>5.Cristalería</center></h4>      
+                <table style="width:100%">
+                    <tr>
+                      <th>x</th>
+                      <td><input class="input" type="text" id="item1" name="item" ></td>
+                    </tr> 
+                    <tr>
+                      <th>y</th>
+                      <td><input class="input" type="text" id="item2" name="item" ></td>
+                    </tr>
+                    <tr>
+                      <th>z</th>
+                      <td><input class="input" type="number" id="item3" name="item" ></td>
+                    </tr> 
+                  </table>
+                  <h4><center>6.latonería y pintura</center></h4>      
+                  <table style="width:100%">
+                      <tr>
+                        <th>x</th>
+                        <td><input class="input" type="text" id="item1" name="item" ></td>
+                      </tr> 
+                      <tr>
+                        <th>y</th>
+                        <td><input class="input" type="text" id="item2" name="item" ></td>
+                      </tr>
+                      <tr>
+                        <th>z</th>
+                        <td><input class="input" type="number" id="item3" name="item" ></td>
+                      </tr> 
+                    </table>
+                    <h4><center>7.Otros elementos</center></h4>      
+                    <table style="width:100%">
+                        <tr>
+                          <th>x</th>
+                          <td><input class="input" type="text" id="item1" name="item" ></td>
+                        </tr> 
+                        <tr>
+                          <th>y</th>
+                          <td><input class="input" type="text" id="item2" name="item" ></td>
+                        </tr>
+                        <tr>
+                          <th>z</th>
+                          <td><input class="input" type="number" id="item3" name="item" ></td>
+                        </tr> 
+                      </table>
+        <input class="button" type="submit" value="Registrar">
+        <input class="button" type="reset" value="Limpiar"/>
+      </form>
+  </div>                    
+
+
+
+
+</body>
+</html>

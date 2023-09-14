@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/EmpleadosStyle.css">
+  <title>Registro de Empleado</title>
+</head>
+<body>
+  <section class="form-registro">
+    <h4>Registro de empleados</h4>
+    <input class="input" type="text" name="idEmpleado" id="idEmpleado" placeholder="Ingrese el ID">
+    <input class="input" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
+    <input class="input" type="text" name="telefono" id="telefono" placeholder="Ingrese su Telefono">
+    <select class="selector-cargo" name="cargo" id="cargo" required>
+      <option value="seleccionar">Selecciona un cargo</option>
+      <option value="administrador">Administrador</option>
+      <option value="cajero">Cajero</option>
+      <option value="mecanico">Mecanico</option>
+    </select>
+    <input class="input" type="text" name="salario" id="salario" placeholder="Ingrese el salario">
+    <input class="button" type="submit" value="Registrar Empleado">
+
+  </section>
+</body>
+</html>

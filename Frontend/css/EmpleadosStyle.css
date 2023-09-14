@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-registro {
+    width: 55%;
+    background: #283847;
+    padding: 8%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-size: 2.6vh;
+    font-family: 'calibri';
+    color: white;
+}
+
+.form-registro h4 {
+    font-size: 4vh;
+    margin-bottom: 20px;
+}
+
+.form-registro .input {
+    width: 100%;
+    background-color: rgb(67, 63, 90);
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 2.1vh;
+
+}   
+
+.form-registro .button{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 2.1vh;
+    margin-block: 16px;
+}
+
+.form-registro .selector-cargo {
+    margin-top: 16px;
+    line-height: 40px;
+}
+
+
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+  }
+
+  
+.form-table {
+    width:55%;
+    /*width: auto;*/
+    background: #283847;
+    padding: 4% 6% 4% 6%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    font-size: 2.6vh;
+    color: white;
+}
+
+.form-table h4 {
+    font-size: 4vh;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-table .input {
+    width: 80%;
+    background-color: rgb(67, 63, 90);
+    padding: 3px;
+    border-radius: 4px;
+    margin-top: 8px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 2.2vh;
+
+}  
+
+.centrar{
+    margin: 0 auto;
+    width: 30%;
+    
+}
+
+.form-table .button{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    margin-block: 16px;
+}
+/*propuesta*/
+th, td {
+    width: 25%;
+    text-align: center;
+    vertical-align: auto;
+    border: 1px solid #1f53c5;
+    border-collapse: collapse;
+    padding: 0.3em;
+  }

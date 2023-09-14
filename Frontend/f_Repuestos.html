@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>repuestos e insumos</title>
+  <link rel="icon" href="imag/img1.png">
+  <link rel="stylesheet" href="css/EmpleadosStyle.css">  
+</head>
+
+
+<section class="form-registro">
+  <h4> REPUESTOS E INSUMOS</h4>
+        <form action="/action_page.php">
+        <input class="input"  type="text" id="Nsolicitud" name="nsolicitud" placeholder="Solicitud N°"><br><br>
+        <form action="/action_page.php">
+        <input class="input"  type="date" id="Fecha_solicitud" name="Fechasolicitud" min="AAAA/MM/DD"><br><br>
+
+        <select class="selector-cargo" name="mecanico" id="Mecanico" required>
+          <option value="seleccionar mecanico">Seleccionar mecanico</option>
+          <option value="Mecanico1">Mecanico 01</option>
+          <option value="Mecanico2">Mecanico 02</option>
+          <option value="Mecanico3">Mecanico 03</option>
+        </select>
+        <input class="button" type="submit" value="Registrar">
+        <input class="button" type="reset" value="Limpiar"/>
+        </form>
+      
+  </section>
+
+<div class="form-table">
+
+<h4>REPUESTOS A USAR</h4>
+
+
+<form action="/action_page.php">
+<table style="width:100%">
+  
+    <tr>
+      <th>Item</th>
+      <th>Descripción</th>
+      <th>Unidad</th>
+      <th>Cantidad</th>
+      <th>Precio</th>
+
+
+    </tr>
+ 
+    <tr>
+      
+      <th><input class="input" type="text" id="item1" name="item1" ></th>
+      <th><input class="input" type="text" id="des1" name="des1" ></th>
+      <th><input class="input" type="number" id="und1" name="und1" ></th>
+      <th><input class="input" type="number" id="cant1" name="cant1" ></th>
+      <th><input class="input" type="number" id="precio1" name="precio1" ></th>
+
+      
+
+    </tr>
+    <tr>
+       
+        <th><input class="input" type="text" id="item2" name="item2" ></th>
+        <th><input class="input" type="text" id="des2" name="des2" ></th>
+        <th><input class="input" type="number" id="und2" name="und2" ></th>
+        <th><input class="input" type="number" id="cant2" name="cant2" ></th>
+        <th><input class="input" type="number" id="precio2" name="precio2" ></th>
+
+
+    </tr>
+    <tr>
+       
+        <th><input class="input" type="text" id="item3" name="item3" ></th>
+        <th><input class="input" type="text" id="des3" name="des3" ></th>
+        <th><input class="input" type="number" id="und3" name="und3" ></th>
+        <th><input class="input" type="number" id="cant3" name="cant3" ></th>
+        <th><input class="input" type="number" id="precio3" name="precio3" ></th>
+
+
+    </tr>
+    <tr>
+        
+        <th><input class="input" type="text" id="item4" name="item4" ></th>
+        <th><input class="input" type="text" id="des4" name="des4" ></th>
+        <th><input class="input" type="number" id="und4" name="und4" ></th>
+        <th><input class="input" type="number" id="cant4" name="cant4" ></th>
+        <th><input class="input" type="number" id="precio4" name="precio4" ></th>
+
+
+    </tr>
+
+  </table>
+  <div class="centrar">
+  <input class="button" type="reset" value="Limpiar"/>
+  </div>
+</form>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
